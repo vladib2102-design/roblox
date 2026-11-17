@@ -1,0 +1,27 @@
+{
+  "name": "BrainrotTycoon",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameServer": {
+        "$path": "src/ServerScriptService/Game.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "GameHUD": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/GameHUD.client.lua"
+        }
+      }
+    }
+  }
+}
